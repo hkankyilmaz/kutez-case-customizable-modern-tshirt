@@ -1,4 +1,4 @@
-# Weather App
+# M T-SHIRT
 
 🔸 Singe Page ecommerce website template for hiring case<br>
 🔸 This web app built with using [React](https://reactjs.org/). <br>
