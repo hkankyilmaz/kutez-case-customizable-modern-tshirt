@@ -6,6 +6,27 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #333;
+  background: linear-gradient(
+    -45deg,
+    lightgoldenrodyellow,
+    #fff,
+    #fff,
+    #23a6d5
+  );
+  background-size: 300% 300%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 h1,
@@ -568,6 +589,7 @@ ol {
   position: relative;
   overflow: hidden;
   margin: 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .shop:before {
@@ -648,6 +670,7 @@ ol {
   box-shadow: 0px 0px 0px 0px #e4e7ed, 0px 0px 0px 1px #e4e7ed;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .product:hover {
