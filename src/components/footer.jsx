@@ -4,40 +4,40 @@ function footer() {
   return (
     <div>
       <footer id="footer">
-        <div class="section">
-          <div class="container">
-            <div class="row trb-row">
-              <div class="col-md-3 col-xs-6">
-                <div class="footer">
-                  <h3 class="footer-title">About Us</h3>
+        <div className="section">
+          <div className="container">
+            <div className="row trb-row">
+              <div className="col-md-3 col-xs-6">
+                <div className="footer">
+                  <h3 className="footer-title">About Us</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut.
                   </p>
-                  <ul class="footer-links">
+                  <ul className="footer-links">
                     <li>
                       <a href="!#">
-                        <i class="fa fa-map-marker"></i>34000 Ümraniye
+                        <i className="fa fa-map-marker"></i>34000 Ümraniye
                       </a>
                     </li>
                     <li>
                       <a href="!#">
-                        <i class="fa fa-phone"></i>212-777-22
+                        <i className="fa fa-phone"></i>212-777-22
                       </a>
                     </li>
                     <li>
                       <a href="!#">
-                        <i class="fa fa-envelope-o"></i>email@email.com
+                        <i className="fa fa-envelope-o"></i>email@email.com
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div class="col-md-3 col-xs-6">
-                <div class="footer">
-                  <h3 class="footer-title">Kategoriler</h3>
-                  <ul class="footer-links">
+              <div className="col-md-3 col-xs-6">
+                <div className="footer">
+                  <h3 className="footer-title">Kategoriler</h3>
+                  <ul className="footer-links">
                     <li>
                       <a href="!#">Organik T-Shirt</a>
                     </li>
@@ -57,12 +57,12 @@ function footer() {
                 </div>
               </div>
 
-              <div class="clearfix visible-xs"></div>
+              <div className="clearfix visible-xs"></div>
 
-              <div class="col-md-3 col-xs-6">
-                <div class="footer">
-                  <h3 class="footer-title">Bilgi</h3>
-                  <ul class="footer-links">
+              <div className="col-md-3 col-xs-6">
+                <div className="footer">
+                  <h3 className="footer-title">Bilgi</h3>
+                  <ul className="footer-links">
                     <li>
                       <a href="!#">Hakkımızda</a>
                     </li>
@@ -82,10 +82,10 @@ function footer() {
                 </div>
               </div>
 
-              <div class="col-md-3 col-xs-6">
-                <div class="footer">
-                  <h3 class="footer-title">Servis</h3>
-                  <ul class="footer-links">
+              <div className="col-md-3 col-xs-6">
+                <div className="footer">
+                  <h3 className="footer-title">Servis</h3>
+                  <ul className="footer-links">
                     <li>
                       <a href="!#">Hesabım</a>
                     </li>
@@ -108,39 +108,39 @@ function footer() {
           </div>
         </div>
 
-        <div id="bottom-footer" class="section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <ul class="footer-payments">
+        <div id="bottom-footer" className="section">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <ul className="footer-payments">
                   <li>
                     <a href="">
-                      <i class="fa fa-cc-visa"></i>
+                      <i className="fa fa-cc-visa"></i>
                     </a>
                   </li>
                   <li>
                     <a href="!#">
-                      <i class="fa fa-credit-card"></i>
+                      <i className="fa fa-credit-card"></i>
                     </a>
                   </li>
                   <li>
                     <a href="!#">
-                      <i class="fa fa-cc-paypal"></i>
+                      <i className="fa fa-cc-paypal"></i>
                     </a>
                   </li>
                   <li>
                     <a href="!#">
-                      <i class="fa fa-cc-mastercard"></i>
+                      <i className="fa fa-cc-mastercard"></i>
                     </a>
                   </li>
                   <li>
                     <a href="!#">
-                      <i class="fa fa-cc-discover"></i>
+                      <i className="fa fa-cc-discover"></i>
                     </a>
                   </li>
                   <li>
                     <a href="!#">
-                      <i class="fa fa-cc-amex"></i>
+                      <i className="fa fa-cc-amex"></i>
                     </a>
                   </li>
                 </ul>
