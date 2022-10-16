@@ -148,21 +148,21 @@ function Product({ data }) {
               <div className="product-btns">
                 <button className="add-to-wishlist">
                   <i className="fa fa-heart-o"></i>
-                  <span className="tooltipp">add to wishlist</span>
+                  <span className="tooltipp">beğenilenlere ekle</span>
                 </button>
                 <button className="add-to-compare">
                   <i className="fa fa-exchange"></i>
-                  <span className="tooltipp">add to compare</span>
+                  <span className="tooltipp">karşılaştır</span>
                 </button>
                 <button className="quick-view">
                   <i className="fa fa-eye"></i>
-                  <span className="tooltipp">quick view</span>
+                  <span className="tooltipp">hızlı görünüm</span>
                 </button>
               </div>
             </div>
             <div className="add-to-cart">
               <button onClick={() => handleClick()} className="add-to-cart-btn">
-                <i className="fa fa-shopping-cart"></i> add to cart
+                <i className="fa fa-shopping-cart"></i> Sepete Ekle
               </button>
             </div>
           </div>

@@ -54,7 +54,7 @@ function Header() {
                   <div>
                     <a href="!#">
                       <i class="fa fa-heart-o"></i>
-                      <span>Your Wishlist</span>
+                      <span>Beğendiklerim</span>
                       <div class="qty">2</div>
                     </a>
                   </div>
@@ -66,7 +66,7 @@ function Header() {
                       aria-expanded="true"
                     >
                       <i class="fa fa-shopping-cart"></i>
-                      <span>Your Cart</span>
+                      <span>Sepet</span>
                       <div class="qty">3</div>
                     </a>
                     <div class="cart-dropdown">
