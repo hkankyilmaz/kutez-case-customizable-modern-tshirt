@@ -181,7 +181,7 @@ export const data = [
       S: "41.00",
     },
     color: {
-      Gri: "#4B4F52",
+      Pembe: "#F53978",
       Pembe: "#fff",
       Yeşil: "#028942",
     },
