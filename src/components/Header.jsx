@@ -80,7 +80,7 @@ function Header() {
                               <a href="!#">product name goes here</a>
                             </h3>
                             <h4 class="product-price">
-                              <span class="qty">1x</span>$980.00
+                              <span class="qty">1x</span>₺980.00
                             </h4>
                           </div>
                           <button class="delete">
@@ -97,7 +97,7 @@ function Header() {
                               <a href="!#">product name goes here</a>
                             </h3>
                             <h4 class="product-price">
-                              <span class="qty">3x</span>$980.00
+                              <span class="qty">3x</span>₺980.00
                             </h4>
                           </div>
                           <button class="delete">
