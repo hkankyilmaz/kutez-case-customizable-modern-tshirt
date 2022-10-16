@@ -182,7 +182,7 @@ export const data = [
     },
     color: {
       Pembe: "#F53978",
-      Pembe: "#fff",
+      Beyaz: "#fff",
       Yeşil: "#028942",
     },
     photos: [w3_1, w3_2, w3_3, w3_4, w3_5, w3_6],
