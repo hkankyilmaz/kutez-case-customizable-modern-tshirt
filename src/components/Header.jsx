@@ -7,11 +7,11 @@ function Header() {
     <>
       <header>
         <div id="header">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="header-logo">
-                  <a href="!#" class="logo">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3">
+                <div className="header-logo">
+                  <a href="!#" className="logo">
                     <h2
                       style={{
                         color: "white",
@@ -35,92 +35,92 @@ function Header() {
                 </div>
               </div>
 
-              <div class="col-md-6">
-                <div class="header-search">
+              <div className="col-md-6">
+                <div className="header-search">
                   <form>
-                    <select class="input-select">
+                    <select className="input-select">
                       <option value="0">All Categories</option>
                       <option value="1">Category 01</option>
                       <option value="1">Category 02</option>
                     </select>
-                    <input class="input" placeholder="Search here" />
-                    <button class="search-btn">Search</button>
+                    <input className="input" placeholder="Search here" />
+                    <button className="search-btn">Search</button>
                   </form>
                 </div>
               </div>
 
-              <div class="col-md-3 clearfix">
-                <div class="header-ctn">
+              <div className="col-md-3 clearfix">
+                <div className="header-ctn">
                   <div>
                     <a href="!#">
-                      <i class="fa fa-heart-o"></i>
+                      <i className="fa fa-heart-o"></i>
                       <span>Beğendiklerim</span>
-                      <div class="qty">2</div>
+                      <div className="qty">2</div>
                     </a>
                   </div>
 
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <a
-                      class="dropdown-toggle"
+                      className="dropdown-toggle"
                       data-toggle="dropdown"
                       aria-expanded="true"
                     >
-                      <i class="fa fa-shopping-cart"></i>
+                      <i className="fa fa-shopping-cart"></i>
                       <span>Sepet</span>
-                      <div class="qty">3</div>
+                      <div className="qty">3</div>
                     </a>
-                    <div class="cart-dropdown">
-                      <div class="cart-list">
-                        <div class="product-widget">
-                          <div class="product-img">
+                    <div className="cart-dropdown">
+                      <div className="cart-list">
+                        <div className="product-widget">
+                          <div className="product-img">
                             <img src={m1} alt="" />
                           </div>
-                          <div class="product-body">
-                            <h3 class="product-name">
+                          <div className="product-body">
+                            <h3 className="product-name">
                               <a href="!#">product name goes here</a>
                             </h3>
-                            <h4 class="product-price">
-                              <span class="qty">1x</span>₺980.00
+                            <h4 className="product-price">
+                              <span className="qty">1x</span>₺980.00
                             </h4>
                           </div>
-                          <button class="delete">
-                            <i class="fa fa-close"></i>
+                          <button className="delete">
+                            <i className="fa fa-close"></i>
                           </button>
                         </div>
 
-                        <div class="product-widget">
-                          <div class="product-img">
+                        <div className="product-widget">
+                          <div className="product-img">
                             <img src={w1} alt="" />
                           </div>
-                          <div class="product-body">
-                            <h3 class="product-name">
+                          <div className="product-body">
+                            <h3 className="product-name">
                               <a href="!#">product name goes here</a>
                             </h3>
-                            <h4 class="product-price">
-                              <span class="qty">3x</span>₺980.00
+                            <h4 className="product-price">
+                              <span className="qty">3x</span>₺980.00
                             </h4>
                           </div>
-                          <button class="delete">
-                            <i class="fa fa-close"></i>
+                          <button className="delete">
+                            <i className="fa fa-close"></i>
                           </button>
                         </div>
                       </div>
-                      <div class="cart-summary">
+                      <div className="cart-summary">
                         <small>2 Item(s) selected</small>
                         <h5>SUBTOTAL: 2,940.00 TL</h5>
                       </div>
-                      <div class="cart-btns">
+                      <div className="cart-btns">
                         <a href="!#">View Cart</a>
                         <a href="!#">
-                          Checkout <i class="fa fa-arrow-circle-right"></i>
+                          Checkout <i className="fa fa-arrow-circle-right"></i>
                         </a>
                       </div>
                     </div>
                   </div>
 
-                  <div class="menu-toggle">
+                  <div className="menu-toggle">
                     <a href="!#">
-                      <i class="fa fa-bars"></i>
+                      <i className="fa fa-bars"></i>
                       <span>Menu</span>
                     </a>
                   </div>
@@ -132,10 +132,10 @@ function Header() {
       </header>
 
       <nav id="navigation">
-        <div class="container">
+        <div className="container">
           <div id="responsive-nav">
-            <ul class="main-nav nav navbar-nav">
-              <li class="active">
+            <ul className="main-nav nav navbar-nav">
+              <li className="active">
                 <a href="!#">Home</a>
               </li>
               <li>

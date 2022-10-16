@@ -5,12 +5,12 @@ function Tab(props) {
     <div className="section">
       <div className="container">
         <div className="row">
-          <div class="col-md-12">
-            <div class="section-title">
-              <h3 class="title"> {props.text} </h3>
-              <div class="section-nav">
-                <ul class="section-tab-nav tab-nav">
-                  <li class="active">
+          <div className="col-md-12">
+            <div className="section-title">
+              <h3 className="title"> {props.text} </h3>
+              <div className="section-nav">
+                <ul className="section-tab-nav tab-nav">
+                  <li className="active">
                     <a data-toggle="tab" href="!#tab2">
                       Organik T-Shirt
                     </a>
