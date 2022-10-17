@@ -9,7 +9,7 @@ function footer() {
             <div className="row trb-row">
               <div className="col-md-3 col-xs-6">
                 <div className="footer">
-                  <h3 className="footer-title">About Us</h3>
+                  <h3 className="footer-title">Hakkımızda</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut.
