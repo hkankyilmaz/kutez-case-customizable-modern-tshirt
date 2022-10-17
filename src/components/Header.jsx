@@ -106,13 +106,13 @@ function Header() {
                         </div>
                       </div>
                       <div className="cart-summary">
-                        <small>2 Item(s) selected</small>
-                        <h5>SUBTOTAL: 2,940.00 TL</h5>
+                        <small>2 ürün(s) eklendi</small>
+                        <h5>TOPLAM: 2,940.00 TL</h5>
                       </div>
                       <div className="cart-btns">
-                        <a href="!#">View Cart</a>
+                        <a href="!#">Sepeti Göster</a>
                         <a href="!#">
-                          Checkout <i className="fa fa-arrow-circle-right"></i>
+                          Ödeme <i className="fa fa-arrow-circle-right"></i>
                         </a>
                       </div>
                     </div>
@@ -121,7 +121,7 @@ function Header() {
                   <div className="menu-toggle">
                     <a href="!#">
                       <i className="fa fa-bars"></i>
-                      <span>Menu</span>
+                      <span>Menü</span>
                     </a>
                   </div>
                 </div>
