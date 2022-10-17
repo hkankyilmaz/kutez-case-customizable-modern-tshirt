@@ -77,7 +77,7 @@ function Header() {
                           </div>
                           <div className="product-body">
                             <h3 className="product-name">
-                              <a href="!#">product name goes here</a>
+                              <a href="!#">Basic V Yaka Tshirt</a>
                             </h3>
                             <h4 className="product-price">
                               <span className="qty">1x</span>₺980.00
@@ -94,7 +94,7 @@ function Header() {
                           </div>
                           <div className="product-body">
                             <h3 className="product-name">
-                              <a href="!#">product name goes here</a>
+                              <a href="!#">Basic Tshirt</a>
                             </h3>
                             <h4 className="product-price">
                               <span className="qty">3x</span>₺980.00
