@@ -43,7 +43,7 @@ function Header() {
                       <option value="1">Kategori 01</option>
                       <option value="1">Kategori 02</option>
                     </select>
-                    <input className="input" placeholder="Search here" />
+                    <input className="input" placeholder="Arama yapınız..." />
                     <button className="search-btn">Arama</button>
                   </form>
                 </div>
